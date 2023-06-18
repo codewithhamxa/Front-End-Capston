@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #495E57;
+    width: 100%;
+}
+.footer_logo img{
+    width: 100px;
+    margin-top: 25px;
+}
+.contact_info h3, .nav_links h3 , .social_links h3{
+    color: white;
+}
+.contact_info p , .nav_links p a, .social_links p{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+.footer_logo, .nav_links , .contact_info, .social_links{
+    margin-right: 170px;
+    
+}
+.footer_logo{
+    margin-left: 100px;
+}
