@@ -70,3 +70,11 @@
     padding: 15px 30px;
     border-radius: 10px;
 }
+.menu_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
