@@ -2,10 +2,17 @@ import React from "react";
 import "./Main.css";
 import heroimage from "../Assets/heroimg.jpg"
 import Menu from "./Menu";
+import Testimonials from "./Testimonials";
 import GreekSalad from "../Assets/greek salad.jpg"
 import burshata from "../Assets/bursheta.png"
 import lemon from "../Assets/lemon dessert.jpg"
 
+import Person from "../Assets/person.png"
+import Person2 from "../Assets/person2.png"
+import Person3 from "../Assets/person 3.png"
+import Person4 from "../Assets/person4.png"
+
+import food from "../Assets/food.png"
 function Main() {
   return (
     <>
@@ -55,6 +62,54 @@ function Main() {
                     Para = "This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined."
                     Link= "Order a delivery"
                 />
+            </div>
+        </section>
+        <section className="testimonial_section">
+            <div className="testimonial_title">
+                <h2>What our costumers says</h2>
+            </div>
+            <div className="testimonial_cards">
+                <Testimonials 
+                    stars = "⭐⭐⭐⭐⭐"
+                    avatar = {Person}
+                    name = "Adin jeo"
+                    review = "Such a chilled out atmosphere - love it!"
+                />
+                <Testimonials 
+                    stars = "⭐⭐⭐⭐"
+                    avatar = {Person2}
+                    name = "Harry lee"
+                    review = "Such a chilled out atmosphere - love it!"
+                />
+                <Testimonials 
+                    stars = "⭐⭐⭐⭐⭐"
+                    avatar = {Person3}
+                    name = "Mia latina"
+                    review = "Such a chilled out atmosphere - love it!"
+                />
+                <Testimonials 
+                    stars = "⭐⭐⭐⭐"
+                    avatar = {Person4}
+                    name = "Rose Marry"
+                    review = "Such a chilled out atmosphere - love it!"
+                />
+            </div>
+        </section>
+        <section className="about">
+            <div className="About_info">
+                <div className="about_text">
+                    <h2>Little Lemon</h2>
+                    <h3>Chicago</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua  <br/>
+                    dolor do amet sint. Velit officia consequat duis enim  <br/>
+                    velit mollit. Exercitation veniam consequat sunt nostrud amet. <br/>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor  <br/>
+                    do amet sint. Velit officia consequat duis enim velit mollit. </p>
+                </div>
+                <div className="about_image">
+                    <img src={food} className="food"/>
+                    
+                </div>
             </div>
         </section>
       </main>

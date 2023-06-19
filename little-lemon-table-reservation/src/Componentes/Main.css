@@ -49,7 +49,7 @@
     border-radius: 10px;
 }
 .menu_title{
-    margin-top: 50px;
+    margin-top: 150px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -77,4 +77,54 @@
     margin-top: 10px;
     margin-right: 60px;
     margin-left: 60px;
+}
+
+.testimonial_section{
+    margin-top: 150px;
+}
+.testimonial_title h2{
+    text-align: center;
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+.testimonial_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.About_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F4CE14;
+    padding: 30px 10px;
+    margin-top: 150px;
+}
+
+.about_image img{
+    width: 400px;
+    
+    object-fit: cover;
+}
+.about_text h2{
+    color: #000000;
+    font-family: 'Markazi Text', serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 0;
+}
+.about_text h3{
+    font-family: 'Markazi Text', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 0;
+}
+.about_text p{
+    font-size: 20px;
+    text-align: justify;
 }
