@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    /* justify-content: space-around; */
+    
 }
 .user_info img{
     width: 50px;

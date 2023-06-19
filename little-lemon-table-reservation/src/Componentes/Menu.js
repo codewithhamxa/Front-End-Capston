@@ -1,6 +1,6 @@
 import React from "react";
 import "./Menu.css";
-// import GreekSalad from "../Assets/greek salad.jpg"
+
 function Menu(props){
     return(
         <>
