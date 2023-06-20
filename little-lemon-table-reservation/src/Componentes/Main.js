@@ -3,16 +3,19 @@ import "./Main.css";
 import heroimage from "../Assets/heroimg.jpg"
 import Menu from "./Menu";
 import Testimonials from "./Testimonials";
-import GreekSalad from "../Assets/greek salad.jpg"
-import burshata from "../Assets/bursheta.png"
-import lemon from "../Assets/lemon dessert.jpg"
+import GreekSalad from "../Assets/greek salad.jpg";
+import burshata from "../Assets/bursheta.png";
+import lemon from "../Assets/lemon dessert.jpg";
 
-import Person from "../Assets/person.png"
-import Person2 from "../Assets/person2.png"
-import Person3 from "../Assets/person 3.png"
-import Person4 from "../Assets/person4.png"
+import Person from "../Assets/person.png";
+import Person2 from "../Assets/person2.png";
+import Person3 from "../Assets/person 3.png";
+import Person4 from "../Assets/person4.png";
 
-import food from "../Assets/food.png"
+import food from "../Assets/food.png";
+import { Link } from "react-router-dom";
+
+
 function Main() {
   return (
     <>
@@ -27,7 +30,10 @@ function Main() {
                     restaurant, focused on traditional <br/>
                     recipes served with a modern twist.
                 </p>
-                <a href="#">Reserve a table</a>
+                <Link to="/Reservation" style={{textDecoration: "none"}}>
+                    <a href="#">Reserve a table</a>
+                </Link>
+               
             </div>
             <div className="hero_image">
                 <img src={heroimage} />
@@ -108,7 +114,6 @@ function Main() {
                 </div>
                 <div className="about_image">
                     <img src={food} className="food"/>
-                    
                 </div>
             </div>
         </section>
